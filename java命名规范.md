@@ -1,11 +1,11 @@
 来源：http://blog.csdn.net/yang_best/article/details/42169549
 
 作为一个优秀的项目经理或项目带头人，必须养成良好优秀的项目命名规则和习惯。接下来把查到的资料整理一下，实际上，在很多项目中，也是遵循以下的规则。
-##一、项目名
+## 一、项目名
 
 全部小写，比如cms、workdesk,jobserver等
 
-##二、java相关命名
+## 二、java相关命名
 a、类命名：每音节单词前的第一个字母大写，比如FieldInfo、Expression等\
 b、普通变量(包括spring里的变量引用命名)：第一个单词前小写，以后每个单词第一个字母大写，password,primaryFlag
 c、静态变量：全部大写，多个单词则以_分开，比如BOOLEAN_FLAG
@@ -18,21 +18,21 @@ c、常量可使用上述规则，如果为了体现多个常量是一组的概�
 比如：VAR_START，VAR_END.
 c、方法是动词+名字或者只有动词
 
-##三、属性文件.properties定义变量命名
+## 三、属性文件.properties定义变量命名
 object.a_b_c格式，全部小写，其中object是宿主，a_b_c多个单词下划线分开。
 例：hibernate.cache.use_second_level_cache，hibernate.cache.provider_class，hibernate.cache.provider_configuration_file_resource_path
 
-##四、xml文件命名
+## 四、xml文件命名
 全部小写，-符号是其xml的用途说明，类似applicationContext属习惯命名。比如springmvc-servlet.xml、workdesk-manager.xml、workdesk-servlet.xml、applicationContext-basic.xml等
 xml里的内容多个字符间以-隔开，比如param-name，filter-mapping等
 
-##五、普通文件命名(jsp,js,img等)
+## 五、普通文件命名(jsp,js,img等)
 和java普通变量规范相同
 
-##六、属性文件properties
+## 六、属性文件properties
 以下划线隔开：errors_zh_CN.properties，hibernate_test.properties
 
-##七、数据库命名：
+## 七、数据库命名：
 表、字段命名全部大写，多个单词以_隔开
 
 
