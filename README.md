@@ -1,5 +1,5 @@
 # java-base-projects
-. Java 基础项目示例
+## Java 基础项目示例
 - 命名
 - 上传下载
 - IO
