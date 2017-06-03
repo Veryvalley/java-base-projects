@@ -1,4 +1,4 @@
-package cn.mamp.base.httpclient;
+package cn.mamp.base.http.javaapi;
 
 import java.io.IOException;
 
